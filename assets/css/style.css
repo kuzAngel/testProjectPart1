@@ -235,6 +235,10 @@ button {
 	grid-template-columns: 50% 50%;
 	padding-top: 6px;
 }
+
+.main__picture-image {
+	padding-right: 16px;
+}
 /* Desktop */
 
 @media (min-width: 1120px) {
@@ -256,6 +260,10 @@ button {
 		display: flex;
 		margin-left: auto;
 		gap: 32px;
+	}
+
+	.main__picture-image {
+		padding-right: 16px;
 	}
 
 	.nav {
