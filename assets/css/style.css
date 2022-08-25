@@ -59,6 +59,7 @@ body {
 
 button {
 	background: none;
+	cursor: pointer;
 }
 
 /* Header */
@@ -135,6 +136,10 @@ button {
 	left: 0;
 }
 
+.main__label {
+	cursor: pointer;
+}
+
 /* Navigation */
 
 .nav {
@@ -154,6 +159,7 @@ button {
 	padding: 8px 16px;
 	box-sizing: border-box;
 	height: 40px;
+	cursor: pointer;
 }
 
 .nav__input:checked + .nav__button {
