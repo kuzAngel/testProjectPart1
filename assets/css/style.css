@@ -156,7 +156,7 @@ button {
 	height: 40px;
 }
 
-.nav_input:checked + .nav__button {
+.nav__input:checked + .nav__button {
 	border: solid 2px #b8ffec;
 	border-radius: 6px;
 	background: #ffffff;
