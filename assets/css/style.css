@@ -224,21 +224,22 @@ button {
 		right: -20px;
 		align-self: center;
 	}
+
+	.main__picture {
+		padding-right: 16px;
+	}
+
+	.main__info {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		padding-top: 6px;
+	}
 }
 
 .main__buttons--desktop {
 	display: none;
 }
 
-.main__info {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	padding-top: 6px;
-}
-
-.main__picture-image {
-	padding-right: 16px;
-}
 /* Desktop */
 
 @media (min-width: 1120px) {
@@ -262,7 +263,7 @@ button {
 		gap: 32px;
 	}
 
-	.main__picture-image {
+	.main__picture {
 		padding-right: 16px;
 	}
 
